@@ -86,6 +86,5 @@ public class ClanService implements IClanService {
         clan.setUpdatedAt(LocalDateTime.now());
 
         return this.clanRepository.save(clan);
-    }
-    
+    }    
 }
